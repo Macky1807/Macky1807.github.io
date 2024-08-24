@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,500;0,600;0,800;0,900;1,700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-1">
+      <img class="figma1-icon" alt="" src="./public/figma1@2x.png" />
+
+      <section class="header">
+        <div class="name">
+          <div class="name-container">
+            <header class="home-parent">
+              <a class="home">HOME</a>
+              <a class="marc-lowell-apin">Marc Lowell Apin</a>
+            </header>
+            <div class="greeting">
+              <h1 class="hello-im-marc">Hello! I’m Marc Lowell Apin</h1>
+            </div>
+          </div>
+          <div class="occupation">
+            <img
+              class="figma2-icon"
+              loading="lazy"
+              alt=""
+              src="./public/figma2@2x.png"
+            />
+          </div>
+        </div>
+        <div class="bio">
+          <div class="im-a-computer">
+            I’m a Computer Science student, I graduated High-school from
+            Immaculate Conception Child Development Center Inc. As a college
+            student my goal is to excel academically in my chosen field of
+            study.
+          </div>
+        </div>
+      </section>
+      <div class="layout">
+        <h3 class="hobbies-social" id="hOBBIESSOCIAL">
+          HOBBIES & SOCIAL MEDIA --&gt;
+        </h3>
+      </div>
+    </div>
+
+    <script>
+      var hOBBIESSOCIAL = document.getElementById("hOBBIESSOCIAL");
+      if (hOBBIESSOCIAL) {
+        hOBBIESSOCIAL.addEventListener("click", function (e) {
+          window.location.href = "./desktop1.html";
+        });
+      }
+      </script>
+  </body>
+</html>
