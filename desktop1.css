@@ -1,0 +1,294 @@
+.figma1-1-icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: -1px;
+  max-height: 100%;
+  object-fit: cover;
+}
+.figma3-icon,
+.hobbies-social1 {
+  position: relative;
+  max-width: 100%;
+  z-index: 1;
+}
+.hobbies-social1 {
+  width: 861px;
+  font-size: var(--font-size-45xl);
+  font-weight: 900;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  text-shadow: 2px 0 0#000, 0 2px 0#000, -2px 0 0#000, 0-2px 0#000;
+  white-space: nowrap;
+}
+.figma3-icon {
+  width: 368px;
+  max-height: 100%;
+  object-fit: cover;
+}
+.playing-computer-games {
+  margin: 0;
+}
+.playing-computer-games-container {
+  position: relative;
+  font-weight: 800;
+  text-shadow: 2px 0 0#000, 0 2px 0#000, -2px 0 0#000, 0-2px 0#000;
+  z-index: 1;
+}
+.hobby-description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 100px 0 0;
+  box-sizing: border-box;
+  min-width: 353px;
+  max-width: 100%;
+}
+.hobby-item {
+  width: 966px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 55px;
+}
+.hobbies-list,
+.hobbies-social-media-parent,
+.hobby-item {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.hobbies-list {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: #fcfc18;
+  font-family: var(--font-inter);
+}
+.hobbies-social-media-parent {
+  width: 1041px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 70px;
+}
+.facebook-1,
+.profile-picture-icon {
+  height: 48px;
+  width: 54px;
+  position: relative;
+}
+.facebook-1 {
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  z-index: 2;
+}
+.profile-picture-icon {
+  min-height: 48px;
+  z-index: 1;
+}
+.macky-mc {
+  align-self: stretch;
+  position: relative;
+  font-weight: 700;
+  z-index: 1;
+}
+.macky-mc-wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 229px;
+}
+.macky-mc-wrapper,
+.name-and-social-inner,
+.profile-picture-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.profile-picture-parent {
+  align-self: stretch;
+  flex-direction: row;
+  row-gap: 20px;
+}
+.name-and-social-inner {
+  width: 406px;
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.instagram-1-icon {
+  height: 50px;
+  width: 59px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.instagram-handle,
+.name-and-social,
+.social-media {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.instagram-handle {
+  flex: 1;
+  flex-direction: column;
+  padding: 2px 0 0;
+  box-sizing: border-box;
+  min-width: 257px;
+}
+.name-and-social,
+.social-media {
+  flex-direction: row;
+  row-gap: 20px;
+}
+.social-media {
+  flex: 1;
+  min-width: 296px;
+  margin-left: -35px;
+}
+.name-and-social {
+  width: 826px;
+}
+.home- {
+  align-self: stretch;
+  position: relative;
+  font-weight: 900;
+  cursor: pointer;
+  z-index: 1;
+}
+.contact-info,
+.home-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.home-wrapper {
+  width: 210px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.contact-info {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.contact-info-wrapper,
+.desktop-2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.contact-info-wrapper {
+  width: 1315px;
+  flex-direction: row;
+  padding: 0 64px;
+  max-width: 100%;
+}
+.desktop-2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-xl) 28px 45px;
+  gap: 123px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .contact-info {
+    flex-wrap: wrap;
+  }
+  .contact-info-wrapper {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .desktop-2 {
+    gap: 61px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .figma3-icon {
+    flex: 1;
+  }
+  .playing-computer-games-container {
+    font-size: var(--font-size-13xl);
+  }
+  .hobby-item {
+    flex-wrap: wrap;
+  }
+  .hobbies-social-media-parent {
+    gap: 35px;
+  }
+  .macky-mc {
+    font-size: var(--font-size-10xl);
+  }
+  .name-and-social {
+    flex-wrap: wrap;
+  }
+  .home- {
+    font-size: var(--font-size-10xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .hobby-description {
+    padding-top: 65px;
+    box-sizing: border-box;
+  }
+  .hobby-item {
+    gap: 27px;
+  }
+  .hobbies-social-media-parent {
+    gap: 17px;
+  }
+  .social-media {
+    flex-wrap: wrap;
+    margin-left: 0;
+  }
+  .desktop-2 {
+    gap: 31px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .playing-computer-games-container {
+    font-size: var(--font-size-5xl);
+  }
+  .hobby-description {
+    min-width: 100%;
+  }
+  .macky-mc {
+    font-size: var(--font-size-3xl);
+  }
+  .profile-picture-parent {
+    flex-wrap: wrap;
+  }
+  .home- {
+    font-size: var(--font-size-3xl);
+  }
+  .desktop-2 {
+    gap: 15px;
+  }
+}
